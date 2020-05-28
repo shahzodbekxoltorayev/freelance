@@ -1,0 +1,145 @@
+ <header>
+    <div class="off-canvas-content  ">
+        <div  > 
+             <nav class="navbar navbar-fixed-top p-0" style="position: relative;"  >
+                <div class="container-visitor">
+                    <div class="navbar-header">
+                        <button  class="navbar-toggle d-lg-none" data-toggle="modal" data-target=".bd-example-modal-left-side" >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-md m-0 air-icon-view-as-informative text-muted vertical-align-middle"  ></span>
+                        </button>
+                        <a  class="navbar-brand" href="/"  > Upwork </a>
+                            <div class="d-lg-none navbar-search navbar-search-mobile">
+                                <!-- <form   class="header-search d-lg-none"  >
+                                    <div class="input-group input-group-search-dropdown input-group-navbar">
+                                    <div class="input-group-btn">
+                                        <button class="navbar-search-open btn p-0-left-right" type="button" >
+                                            <span class="glyphicon glyphicon-md air-icon-search m-0 text-muted" ></span>
+                                            <span class="sr-only">Open search</span>
+                                        </button>
+                            
+                                        <button class="navbar-search-close btn p-0-left-right navbar-search-close"  >
+                                            <span class="glyphicon air-icon-close m-0 text-primary" ></span>
+                                            <span class="sr-only">Close search</span>
+                                        </button>
+  
+                                    </div> 
+                                    <input class="form-control" placeholder="Find Professionals &amp; Agencies">
+                                </div>
+                            </form> -->
+                        </div>
+                    </div>
+
+
+                    <div class="navbar-collapse d-none d-lg-flex sticky-sublocation">
+                        <div class="navbar-form">
+                            <form class="header-search " method="GET" action="/search/profiles/" role="search">
+                                <div class="input-group input-group-search-dropdown input-group-navbar">
+                                    <div class="input-group-btn">
+                                        <button class="btn p-0-left-right" type="submit" tabindex="0">
+                                            <span class="glyphicon air-icon-search m-sm-left m-0-right" ></span>
+                                            <span class="sr-only">Submit search</span>
+                                        </button>
+    
+                                        </div>
+                                        <input type="hidden" name="nbs" value="1">
+                                        <input class="form-control" type="search" name="q" tabindex="0" placeholder="Find Professionals &amp; Agencies">
+                                    </div>
+                                </form>
+                            </div>
+                            <ul class="navbar-nav navbar-lg navbar-subnav navbar-right" >
+                                <li >
+                                    <a   href="#"       > How it works </a>
+                                </li>
+                                <li ><a  routerLink="login"  > Log In </a>
+                                </li>
+   
+                                </ul>
+                                <div class="navbar-cta">
+                                    <a   class="btn btn-primary" routerLink="signup"    > Sign Up </a>
+                                </div>
+                            </div>
+                        </div>
+                </nav> 
+        </div>
+    </div> 
+
+</header>
+<div class="navbar-menu "  >
+    <div class="container-visitor" style="position: relative;padding-top: 70px; ">
+   
+        <ul class="list-unstyled dropdown-menu-subnav" role="menu" aria-label="Browse">
+            <li role="none">
+                <a   routerLink="/developers"  > Web Dev </a>
+            </li>
+            <li role="none">
+                <a routerLink="/mobile-developers"  > Mobile Dev </a>
+            </li>
+            <li role="none">
+                <a  routerLink="/designers"  > Design </a>
+            </li>
+            <li role="none">
+                <a   routerLink="/writing" > Writing </a>
+            </li>
+            <li role="none">
+                <a    href="/administrative-support"  > Admin Support </a>
+            </li>
+                <li role="none">
+                    <a   routerLink="/customer-service" > Customer Service </a>
+                </li>
+                <li role="none">
+                    <a  routerLink="/sales-marketing" > Marketing </a>
+                </li>
+                <li role="none">
+                    <a    routerLink="/accounting-consulting" > Accounting </a>
+                </li>
+                <li role="none">
+                    <a    routerLink="/hire"  > See All Categories </a>
+                </li>
+            </ul>
+   
+</div>
+</div>
+ 
+ 
+<!-- <button type="button" class="btn btn-primary m-1" data-toggle="modal" data-target=".bd-example-modal-left-side">Left side modal</button> -->
+  
+
+
+<div class="modal fade bd-example-modal-left-side" tabindex="-1" role="dialog" aria-labelledby="myLeftSideModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-left-side">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title h4" id="myLeftSideModalLabel">Left side modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+ <div class="modal-body">
+    <form class="header-search " method="GET" action="/search/profiles/" role="search">
+        <div class="input-group input-group-search-dropdown input-group-navbar">
+            <div class="input-group-btn">
+                <button class="btn p-0-left-right" type="submit" tabindex="0">
+                    <span class="glyphicon air-icon-search m-sm-left m-0-right" ></span>
+                    <span class="sr-only">Submit search</span>
+                </button>
+
+                </div>
+                <input type="hidden" name="nbs" value="1">
+                <input class="form-control" type="search" name="q" tabindex="0" placeholder="Find Professionals &amp; Agencies">
+            </div>
+        </form>
+ </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+    <router-outlet></router-outlet>
+
+<app-footer></app-footer>

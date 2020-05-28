@@ -2,12 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Asas</title>
+  <title>Freelance</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
+<style class="header-search-styles">
+  .dropdown-menu {
+      pointer-events: auto;
+      width: 100%;
+  }
+  .navbar-search-open {
+      z-index: 3 !important;
+  }
+  .dropdown-menu.open {
+      display: block;
+  }
+</style> 
+<style>
+  .visitor-accordion-content {
+      position: relative;
+      overflow: hidden;
+      transition: height 0.35s ease !important;
+  }
+
+  @media (min-width: 768px) {
+      .visitor-accordion-content {
+          display: block;
+          height: auto !important;
+      }
+  }
+
+  [accordion-item="true"].active .visitor-accordion-toggle .glyphicon {
+      transform: rotate(-180deg);
+  }
+</style>
+
 <body>
-  <app-root></app-root>
+      <app-root></app-root>
+ 
+      <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
 </body>
 </html>

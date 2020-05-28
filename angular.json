@@ -24,9 +24,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css", 
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",   
+              "src/assets/css/air2-homepage.5791c6.css",
+              "src/assets/css/air2-hire.99da94.css",
+              "src/assets/css/air2-hire-skill-v6.74e38b.css",
+
+                "src/assets/css/air2-base.16777f.css",
+                  "src/assets/css/air2-ng-cat.752f2c.css",
+                    "src/assets/css/fonts.air2-icons.2.4.0.css" ,
+           
+  
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.3.1.min.js",
+              // "src/assets/css/owlcarousel/owl.carousel.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                 "src/assets/js/air2-ng-base.5e1331.js",
+                 "src/assets/js/iife.min.js",
+                 "src/assets/js/iife1.min.js",
+                 "src/assets/js/air2-ng-cat.d7cd0f.js"
+
+                
+            ]
           },
           "configurations": {
             "production": {
