@@ -37,8 +37,7 @@
   
             ],
             "scripts": [
-              "src/assets/js/jquery-3.3.1.min.js",
-              // "src/assets/css/owlcarousel/owl.carousel.min.js",
+              "src/assets/js/jquery-3.3.1.min.js", 
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
                  "src/assets/js/air2-ng-base.5e1331.js",
                  "src/assets/js/iife.min.js",
